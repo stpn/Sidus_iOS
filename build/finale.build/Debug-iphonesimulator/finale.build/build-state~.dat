@@ -1,0 +1,1169 @@
+Tfinale
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Info.plist finale/finale-Info.plist
+cDataModelVersionCompile /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Model.momd /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Model.xcdatamodeld
+cProcessPCH /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch.gch finale/finale-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/finaleAppDelegate.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finaleAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/allStarsTableController.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/allStarsTableController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/main.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/baseController.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/baseController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/MockDataSource.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/MockDataSource.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/SplitCatalogController.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/SplitCatalogController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/StarEnvironment.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/StarEnvironment.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/Star.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Res/Star.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/DBManagedObjectCache.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/DBManagedObjectCache.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/AuthenticatedTableViewController.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/AuthenticatedTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/loginOrSignUpController.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/User.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/User.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/finale normal i386
+cGenerateDSYMFile /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app.dSYM /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/finale
+cCpResource ../Three20/src/Three20.bundle build/Debug-iphonesimulator/finale.app/Three20.bundle
+cCopyStringsFile /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/en.lproj/InfoPlist.strings finale/en.lproj/InfoPlist.strings
+cCompileXIB /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/en.lproj/MainWindow.xib
+cTouch /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D93ED360000000000000110
+t1301540150
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D93DFC500000000001C41E0
+t1301536709
+s1851872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D93E02200000000001D6EC0
+t1301536802
+s1928896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D93E017000000000000046B
+t1301536791
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93DF6900000000002999B0
+t1301536617
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93DFEA000000000029DA70
+t1301536746
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D93E09A000000000005C090
+t1301536922
+s376976
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D93E1B20000000000162C50
+t1301537202
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D93DEED0000000000001A58
+t1301536493
+s6744
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D93DEF400000000000689C0
+t1301536500
+s428480
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D93ECBE0000000000000AA1
+t1301540030
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D93ED1B0000000000766870
+t1301540123
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/../Three20/src/Three20.bundle
+c000000004E2340CB0000000000000264
+t1310933195
+s612
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/CoreData/CoreData.h
+c000000004E5C7AAF00000000000001AC
+t1314683567
+s428
+i<CoreData/CoreData.h>
+i"../ObjectMapping/ObjectMapping.h"
+i"NSManagedObject+ActiveRecord.h"
+i"RKManagedObjectStore.h"
+i"RKManagedObjectSeeder.h"
+i"RKManagedObjectCache.h"
+i"RKManagedObjectMapping.h"
+i"RKObjectPropertyInspector+CoreData.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/CoreData/NSManagedObject+ActiveRecord.h
+c000000004E5C7AAF00000000000023BD
+t1314683567
+s9149
+i<CoreData/CoreData.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/CoreData/RKManagedObjectCache.h
+c000000004E5C7AAF0000000000000205
+t1314683567
+s517
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/CoreData/RKManagedObjectMapping.h
+c000000004E5C7AAF0000000000000BDA
+t1314683567
+s3034
+i<CoreData/CoreData.h>
+i"../ObjectMapping/RKObjectMapping.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/CoreData/RKManagedObjectSeeder.h
+c000000004E5C7AAF0000000000000951
+t1314683567
+s2385
+i"../ObjectMapping/ObjectMapping.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/CoreData/RKManagedObjectStore.h
+c000000004E5C7AAF00000000000015C4
+t1314683567
+s5572
+i<CoreData/CoreData.h>
+i"RKManagedObjectCache.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/CoreData/RKObjectPropertyInspector+CoreData.h
+c000000004E5C7AAF0000000000000202
+t1314683567
+s514
+i"../ObjectMapping/RKObjectPropertyInspector.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/NSDictionary+RKRequestSerialization.h
+c000000004E5C7AB30000000000000371
+t1314683571
+s881
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/Network.h
+c000000004E5C7AB30000000000000153
+t1314683571
+s339
+i"RKClient.h"
+i"RKURL.h"
+i"RKRequest.h"
+i"RKResponse.h"
+i"RKRequestSerializable.h"
+i"RKReachabilityObserver.h"
+i"RKRequestQueue.h"
+i"RKNotifications.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKClient.h
+c000000004E5C7AB30000000000004DCC
+t1314683571
+s19916
+i"RKRequest.h"
+i"RKParams.h"
+i"RKResponse.h"
+i"NSDictionary+RKRequestSerialization.h"
+i"RKReachabilityObserver.h"
+i"RKRequestCache.h"
+i"RKRequestQueue.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKNotifications.h
+c000000004E5C7AB30000000000000361
+t1314683571
+s865
+i<Foundation/Foundation.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKParams.h
+c000000004E5C7AB300000000000009B2
+t1314683571
+s2482
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+i"RKParamsAttachment.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKParamsAttachment.h
+c000000004E5C7AB30000000000000863
+t1314683571
+s2147
+i<Foundation/Foundation.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKReachabilityObserver.h
+c000000004E5C7AB3000000000000077A
+t1314683571
+s1914
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKRequest.h
+c000000004E5C7AB30000000000002364
+t1314683571
+s9060
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"RKRequestSerializable.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKRequestCache.h
+c000000004E5C7AB30000000000000789
+t1314683571
+s1929
+i"RKRequest.h"
+i"RKResponse.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKRequestQueue.h
+c000000004E5C7AB300000000000014F2
+t1314683571
+s5362
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKRequestSerializable.h
+c000000004E5C7AB300000000000005FC
+t1314683571
+s1532
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKResponse.h
+c000000004E5C7AB300000000000012AD
+t1314683571
+s4781
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Network/RKURL.h
+c000000004E5C7AB30000000000000362
+t1314683571
+s866
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/ObjectMapping.h
+c000000004E5C7AB40000000000000179
+t1314683572
+s377
+i"RKObjectManager.h"
+i"RKObjectLoader.h"
+i"RKObjectMapping.h"
+i"RKObjectSerializer.h"
+i"RKObjectMappingProvider.h"
+i"RKObjectMappingResult.h"
+i"RKObjectMapper.h"
+i"RKParserRegistry.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectAttributeMapping.h
+c000000004E5C7AB400000000000002A8
+t1314683572
+s680
+i<Foundation/Foundation.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectDynamicMapping.h
+c000000004E5C7AB40000000000000CB8
+t1314683572
+s3256
+i"RKObjectMappingDefinition.h"
+i"RKObjectMapping.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectLoader.h
+c000000004E5C7AB3000000000000199B
+t1314683571
+s6555
+i"../Network/Network.h"
+i"RKObjectMapping.h"
+i"RKObjectMappingResult.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectManager.h
+c000000004E5C7AB30000000000003E0D
+t1314683571
+s15885
+i"../Network/Network.h"
+i"RKObjectLoader.h"
+i"RKObjectRouter.h"
+i"RKObjectMappingProvider.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectMapper.h
+c000000004E5C7AB400000000000009F7
+t1314683572
+s2551
+i<Foundation/Foundation.h>
+i"RKObjectMapping.h"
+i"RKObjectMappingOperation.h"
+i"RKObjectMappingResult.h"
+i"RKObjectMappingProvider.h"
+i"../Support/Support.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectMapping.h
+c000000004E5C7AB4000000000000426F
+t1314683572
+s17007
+i<Foundation/Foundation.h>
+i"RKObjectMappingDefinition.h"
+i"RKObjectAttributeMapping.h"
+i"RKObjectRelationshipMapping.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectMappingDefinition.h
+c000000004E5C7AB400000000000000E5
+t1314683572
+s229
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectMappingOperation.h
+c000000004E5C7AB40000000000000AF2
+t1314683572
+s2802
+i"RKObjectMapping.h"
+i"RKObjectAttributeMapping.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectMappingProvider.h
+c000000004E5C7AB400000000000014EE
+t1314683572
+s5358
+i"RKObjectMapping.h"
+i"RKObjectDynamicMapping.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectMappingResult.h
+c000000004E5C7AB40000000000000223
+t1314683572
+s547
+i<Foundation/Foundation.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectPropertyInspector.h
+c000000004E5C7AB400000000000002AA
+t1314683572
+s682
+i<Foundation/Foundation.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectRelationshipMapping.h
+c000000004E5C7AB400000000000003AC
+t1314683572
+s940
+i<Foundation/Foundation.h>
+i"RKObjectAttributeMapping.h"
+i"RKObjectMappingDefinition.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectRouter.h
+c000000004E5C7AB4000000000000055A
+t1314683572
+s1370
+i"../Network/RKRequest.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKObjectSerializer.h
+c000000004E5C7AB4000000000000077D
+t1314683572
+s1917
+i"RKObjectMapping.h"
+i"RKObjectMappingOperation.h"
+i"../Network/RKRequestSerializable.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/ObjectMapping/RKParserRegistry.h
+c000000004E5C7AB40000000000000503
+t1314683572
+s1283
+i"../Support/RKMIMETypes.h"
+i"../Support/RKParser.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/RestKit.h
+c000000004E5816590000000000000205
+t1314395737
+s517
+i"Network/Network.h"
+i"Support/Support.h"
+i"ObjectMapping/ObjectMapping.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/Errors.h
+c000000004E5C7AAF000000000000020E
+t1314683567
+s526
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/JSON/JSONKit/RKJSONParserJSONKit.h
+c000000004E5C7AAE00000000000000EA
+t1314683566
+s234
+i"../../RKParser.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/JSON/SBJSON/RKJSONParserSBJSON.h
+c000000004E5C7AAF00000000000000E8
+t1314683567
+s232
+i"../../RKParser.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/JSON/YAJL/RKJSONParserYAJL.h
+c000000004E5C7AB300000000000000E4
+t1314683571
+s228
+i"../../RKParser.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/LCLNSLog.h
+c000000004E5C7AAF00000000000009D7
+t1314683567
+s2519
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/NSDictionary+RKAdditions.h
+c000000004E5C7AAF00000000000001B4
+t1314683567
+s436
+i<Foundation/Foundation.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/NSString+RestKit.h
+c000000004E5C7AAF0000000000000649
+t1314683567
+s1609
+i<Foundation/Foundation.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/RKLog.h
+c000000004E5C7AAF00000000000010EE
+t1314683567
+s4334
+i"lcl.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/RKMIMETypes.h
+c000000004E5C7AAF0000000000000122
+t1314683567
+s290
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/RKParser.h
+c000000004E5C7AAF0000000000000277
+t1314683567
+s631
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/RKSearchEngine.h
+c000000004E5C7AAF0000000000000775
+t1314683567
+s1909
+i<Foundation/Foundation.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/Support.h
+c000000004E5C7AAF0000000000000102
+t1314683567
+s258
+i"Errors.h"
+i"NSDictionary+RKAdditions.h"
+i"RKMIMETypes.h"
+i"RKLog.h"
+i"NSString+RestKit.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/lcl.h
+c000000004E5C7AAF00000000000026E2
+t1314683567
+s9954
+i<Foundation/Foundation.h>
+i"lcl_config_components.h"
+i"lcl_config_logger.h"
+i"lcl_config_extensions.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/lcl_config_components.h
+c000000004E5C7AAF00000000000007DB
+t1314683567
+s2011
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/lcl_config_extensions.h
+c000000004E5C7AAF00000000000000A2
+t1314683567
+s162
+i"RKLog.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Support/lcl_config_logger.h
+c000000004E5C7AAF00000000000000AA
+t1314683567
+s170
+i"LCLNSLog.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Three20/RKFilterableObjectLoaderTTModel.h
+c000000004E5C7AC7000000000000069D
+t1314683591
+s1693
+i"RKObjectLoaderTTModel.h"
+i"../Support/RKSearchEngine.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Three20/RKMappableObjectTableItem.h
+c000000004E5C7AC7000000000000017D
+t1314683591
+s381
+i<Three20/Three20.h>
+i"../RestKit.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Three20/RKObjectLoaderTTModel.h
+c000000004E5C7AC70000000000000999
+t1314683591
+s2457
+i<Three20/Three20.h>
+i"../RestKit.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Three20/RKObjectTTTableViewDataSource.h
+c000000004E5C7AC700000000000008F0
+t1314683591
+s2288
+i<Three20/Three20.h>
+i"../RestKit.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/RestKit/Three20/Three20.h
+c000000004E5C7AC70000000000000120
+t1314683591
+s288
+i"RKObjectLoaderTTModel.h"
+i"RKFilterableObjectLoaderTTModel.h"
+i"RKMappableObjectTableItem.h"
+i"RKObjectTTTableViewDataSource.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app.dSYM
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Info.plist
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Model.momd
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/PkgInfo
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Three20.bundle
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/finale
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/AuthenticatedTableViewController.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/DBManagedObjectCache.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/MockDataSource.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/SplitCatalogController.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/Star.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/StarEnvironment.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/User.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/allStarsTableController.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/baseController.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/finale.LinkFileList
+c000000004E5C7AF70000000000000684
+t1314683639
+s1668
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/finaleAppDelegate.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/loginOrSignUpController.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/AuthenticatedTableViewController.h
+c000000004E5C78E600000000000001DC
+t1314683110
+s476
+i<Three20/Three20.h>
+i"User.h"
+i"loginOrSignUpController.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/AuthenticatedTableViewController.m
+c000000004E5C791E0000000000000484
+t1314683166
+s1156
+i"AuthenticatedTableViewController.h"
+i"User.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/DBManagedObjectCache.h
+c000000004E58165900000000000001E7
+t1314395737
+s487
+i<RestKit/CoreData/RKManagedObjectCache.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/DBManagedObjectCache.m
+c000000004E5C44BB000000000000053A
+t1314669755
+s1338
+i"DBManagedObjectCache.h"
+i"Star.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/MockDataSource.h
+c000000004E2340CB00000000000003FB
+t1310933195
+s1019
+i<Three20/Three20.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/MockDataSource.m
+c000000004E2340CB000000000000341C
+t1310933195
+s13340
+i"MockDataSource.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Model.xcdatamodeld
+c000000004E5C7A370000000000000088
+t1314683447
+s136
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Res/Star.h
+c000000004E5C441000000000000002A0
+t1314669584
+s672
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i<RestKit/CoreData/CoreData.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Res/Star.m
+c000000004E5C52F70000000000000177
+t1314673399
+s375
+i"Star.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/SplitCatalogController.h
+c000000004E2340CB0000000000000045
+t1310933195
+s69
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/SplitCatalogController.m
+c000000004E5C47040000000000000B35
+t1314670340
+s2869
+i"SplitCatalogController.h"
+i"baseController.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/StarEnvironment.h
+c000000004E5C3AE80000000000000138
+t1314667240
+s312
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/StarEnvironment.m
+c000000004E5C530F000000000000015E
+t1314673423
+s350
+i"StarEnvironment.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/User.h
+c000000004E5C77D30000000000000941
+t1314682835
+s2369
+i<RestKit/RestKit.h>
+i<RestKit/CoreData/CoreData.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/User.m
+c000000004E5C78A8000000000000167E
+t1314683048
+s5758
+i"User.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/allStarsTableController.h
+c000000004E5C4EB20000000000000138
+t1314672306
+s312
+i<Three20/Three20.h>
+i<RestKit/Three20/Three20.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/allStarsTableController.m
+c000000004E5C4E96000000000000070A
+t1314672278
+s1802
+i"allStarsTableController.h"
+i"MockDataSource.h"
+i"Star.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/baseController.h
+c000000004E5C2FBA00000000000000CE
+t1314664378
+s206
+i<Three20/Three20.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/baseController.m
+c000000004E5C54EB0000000000000478
+t1314673899
+s1144
+i"baseController.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/en.lproj/InfoPlist.strings
+c000000004E5815FE000000000000002D
+t1314395646
+s45
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/en.lproj/MainWindow.xib
+c000000004E5815FE0000000000005FE0
+t1314395646
+s24544
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finale-Prefix.pch
+c000000004E5C3B550000000000000181
+t1314667349
+s385
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<Three20/Three20+Additions.h>
+i"StarEnvironment.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finaleAppDelegate.h
+c000000004E5C34B10000000000000066
+t1314665649
+s102
+i<Three20/Three20.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finaleAppDelegate.m
+c000000004E5C794A00000000000024C5
+t1314683210
+s9413
+i"finaleAppDelegate.h"
+i"baseController.h"
+i"allStarsTableController.h"
+i"SplitCatalogController.h"
+i"loginOrSignUpController.h"
+i"Star.h"
+i<RestKit/RestKit.h>
+i<RestKit/CoreData/CoreData.h>
+i<RestKit/Support/JSON/JSONKit/RKJSONParserJSONKit.h>
+i<RestKit/Support/JSON/SBJSON/RKJSONParserSBJSON.h>
+i<RestKit/Support/JSON/YAJL/RKJSONParserYAJL.h>
+i"DBManagedObjectCache.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.h
+c000000004E5C5AA40000000000000378
+t1314675364
+s888
+i<Three20/Three20.h>
+i<Three20/Three20+Additions.h>
+i<RestKit/RestKit.h>
+i"User.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m
+c000000004E5C5AB3000000000000138E
+t1314675379
+s5006
+i"loginOrSignUpController.h"
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/main.m
+c000000004E5C31A0000000000000015D
+t1314664864
+s349
+i<UIKit/UIKit.h>
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/libRestKitCoreData.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/libRestKitJSONParserJSONKit.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/libRestKitJSONParserNXJSON.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/libRestKitJSONParserSBJSON.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/libRestKitJSONParserYAJL.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/libRestKitNetwork.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/libRestKitObjectMapping.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/libRestKitSupport.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/TTRK/libRestKitThree20.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20.a
+c000000004E5C7AF600000000000010E0
+t1314683638
+s4320
+
+N/Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20Core.a
+c000000004E5C7AD200000000000477B0
+t1314683602
+s292784
+
+N/Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20Network.a
+c000000004E5C7ADE0000000000055E00
+t1314683614
+s351744
+
+N/Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20Style.a
+c000000004E5C7AE7000000000012BD00
+t1314683623
+s1228032
+
+N/Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20UI.a
+c000000004E5C7AF300000000005DA3F0
+t1314683635
+s6136816
+
+N/Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a
+c000000004E5C7ADC000000000004BD08
+t1314683612
+s310536
+
+N/Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a
+c000000004E5C7AE10000000000090830
+t1314683617
+s591920
+
+N/var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch.gch
+t2
+s0
+
+Nfinale/finale-Info.plist
+c000000004E5C34E70000000000000461
+t1314665703
+s1121
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/AuthenticatedTableViewController.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/DBManagedObjectCache.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/MockDataSource.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Res/Star.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/SplitCatalogController.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/StarEnvironment.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/User.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/allStarsTableController.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/baseController.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finaleAppDelegate.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesae7f0f77b20cb441^a2d31377b20cb441^---0#1#0#--18"Check dependencies
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/AuthenticatedTableViewController.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/AuthenticatedTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376441.491705
+e336376441.712649
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/AuthenticatedTableViewController.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/AuthenticatedTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/AuthenticatedTableViewController.m60037e79b20cb441^726fb679b20cb441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/AuthenticatedTableViewController.m0000000000000000^2518"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/AuthenticatedTableViewController.o finale/AuthenticatedTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/AuthenticatedTableViewController.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/AuthenticatedTableViewController.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/DBManagedObjectCache.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/DBManagedObjectCache.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376441.321852
+e336376441.572835
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/DBManagedObjectCache.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/DBManagedObjectCache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/DBManagedObjectCache.me78e5279b20cb441^dba49279b20cb441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/DBManagedObjectCache.m0000000000000000^2470"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/DBManagedObjectCache.o finale/DBManagedObjectCache.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/DBManagedObjectCache.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/DBManagedObjectCache.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/MockDataSource.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/MockDataSource.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376440.771409
+e336376441.244888
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/MockDataSource.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/MockDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/MockDataSource.mfca5c578b20cb441^17ba3e79b20cb441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/MockDataSource.m0000000000000000^2446"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/MockDataSource.o finale/MockDataSource.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/MockDataSource.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/MockDataSource.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/SplitCatalogController.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/SplitCatalogController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376440.920171
+e336376441.175848
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/SplitCatalogController.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/SplitCatalogController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/SplitCatalogController.m35b2eb78b20cb441^eb1a2d79b20cb441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/SplitCatalogController.m0000000000000000^2478"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/SplitCatalogController.o finale/SplitCatalogController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/SplitCatalogController.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/SplitCatalogController.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/Star.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Res/Star.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376441.246133
+e336376441.490446
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/Star.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Res/Star.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Res/Star.mb4213f79b20cb441^07987d79b20cb441^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Res/Star.m0000000000000000^2414"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/Star.o finale/Res/Star.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Res/Star.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/Star.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/StarEnvironment.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/StarEnvironment.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376441.177579
+e336376441.320585
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/StarEnvironment.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/StarEnvironment.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/StarEnvironment.mfb962d79b20cb441^3a1f5279b20cb441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/StarEnvironment.m0000000000000000^2450"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/StarEnvironment.o finale/StarEnvironment.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/StarEnvironment.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/StarEnvironment.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/User.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/User.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376441.714106
+e336376441.882468
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/User.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/User.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/User.m78f1b679b20cb441^62a3e879b20cb441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/User.m0000000000000000^2406"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/User.o finale/User.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/User.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/User.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/allStarsTableController.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/allStarsTableController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376440.421293
+e336376440.594147
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/allStarsTableController.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/allStarsTableController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/allStarsTableController.m01fc6b78b20cb441^a81b9878b20cb441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/allStarsTableController.m0000000000000000^2482"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/allStarsTableController.o finale/allStarsTableController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/allStarsTableController.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/allStarsTableController.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/baseController.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/baseController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376440.625277
+e336376440.918537
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/baseController.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/baseController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/baseController.m732fa078b20cb441^a340eb78b20cb441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/baseController.m0000000000000000^2446"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/baseController.o finale/baseController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/baseController.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/baseController.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/finaleAppDelegate.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finaleAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376440.421274
+e336376440.623884
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/finaleAppDelegate.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finaleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finaleAppDelegate.me6056c78b20cb441^13b69f78b20cb441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finaleAppDelegate.m0000000000000000^2458"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/finaleAppDelegate.o finale/finaleAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finaleAppDelegate.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/finaleAppDelegate.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/loginOrSignUpController.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376441.574056
+e336376441.790313
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/loginOrSignUpController.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m: In function '-[loginOrSignUpController cancelButtonWasPressed:]':
+o/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m:87: warning: '-loginControllerDidCancel:' not found in protocol(s)
+o/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m:87: warning: no '-loginControllerDidCancel:' method found
+o/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m:87: warning: (Messages without a matching method signature
+o/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m:87: warning: will be assumed to return 'id' and accept
+o/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m:87: warning: '...' as arguments.)
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m90169379b20cb441^245eca79b20cb441^-814"/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m: In function '-[loginOrSignUpController cancelButtonWasPressed:]':/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m:87: warning: '-loginControllerDidCancel:' not found in protocol(s)/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m:87: warning: no '-loginControllerDidCancel:' method found/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m:87: warning: (Messages without a matching method signature/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m:87: warning: will be assumed to return 'id' and accept/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m:87: warning: '...' as arguments.)3(21%IDEActivityLogMessage2@53"'-loginControllerDidCancel:' not found in protocol(s)-336376441#146#146#-1#-23%DVTTextDocumentLocation3@94"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m0000000000000000^86#18446744073709551615#86#18446744073709551615#18446744073709551615#0#28"'*' not found in protocol(s)--2@44"No '-loginControllerDidCancel:' method found-336376441#292#137#-1#-3@94"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m0000000000000000^86#18446744073709551615#86#18446744073709551615#18446744073709551615#0#19"No '*' method found--2@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)-336376441#429#138#-0#-3@94"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m0000000000000000^86#18446744073709551615#86#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--0#0#0#-19%DVTDocumentLocation4@94"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m0000000000000000^2482"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/loginOrSignUpController.o finale/loginOrSignUpController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/loginOrSignUpController.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/loginOrSignUpController.o
+
+CCompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/main.o /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376440.595376
+e336376440.769639
+r1
+xCompileC
+xbuild/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/main.o
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/main.m008b9878b20cb441^4947c578b20cb441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/main.m0000000000000000^2406"CompileC build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/main.o finale/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/main.m -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/main.o
+
+CCompileXIB /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/en.lproj/MainWindow.xib
+s336376443.362089
+e336376451.735167
+r1
+xCompileXIB
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/en.lproj/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compiling /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/en.lproj/MainWindow.xibcac55c7bb20cb441^b742bc83b20cb441^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/en.lproj/MainWindow.xib0000000000000000^666"CompileXIB finale/en.lproj/MainWindow.xib    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/en.lproj/MainWindow.nib /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCopyStringsFile /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/en.lproj/InfoPlist.strings finale/en.lproj/InfoPlist.strings
+s336376443.325202
+e336376443.360750
+r1
+xCopyStringsFile
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/en.lproj/InfoPlist.strings
+xfinale/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy finale/en.lproj/InfoPlist.stringsc64f537bb20cb441^0f615c7bb20cb441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/en.lproj/InfoPlist.strings0000000000000000^521"CopyStringsFile build/Debug-iphonesimulator/finale.app/en.lproj/InfoPlist.strings finale/en.lproj/InfoPlist.strings    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/en.lproj -- finale/en.lproj/InfoPlist.strings
+
+CCpResource ../Three20/src/Three20.bundle build/Debug-iphonesimulator/finale.app/Three20.bundle
+s336376443.324812
+e336376443.845461
+r1
+xCpResource
+x../Three20/src/Three20.bundle
+xbuild/Debug-iphonesimulator/finale.app/Three20.bundle
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/finale.app/Three20.bundle3b39537bb20cb441^0070d87bb20cb441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Three20.bundle0000204d2205f041^539"CpResource ../Three20/src/Three20.bundle build/Debug-iphonesimulator/finale.app/Three20.bundle    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/This/Documents/ObjectiveC/Three20/TTRK/../Three20/src/Three20.bundle /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app
+
+CDataModelVersionCompile /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Model.momd /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Model.xcdatamodeld
+s336376439.122466
+e336376439.247094
+r1
+xDataModelVersionCompile
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Model.momd
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Model.xcdatamodeld
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"DataModelVersionCompile build/Debug-iphonesimulator/finale.app/Model.momd finale/Model.xcdatamodeld6d6f1f77b20cb441^5e4c3f77b20cb441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Model.xcdatamodeld/0000000000000000^509"DataModelVersionCompile build/Debug-iphonesimulator/finale.app/Model.momd finale/Model.xcdatamodeld    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/Model.xcdatamodeld /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Model.momd
+
+CGenerateDSYMFile /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app.dSYM /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/finale
+s336376442.746904
+e336376443.321869
+r1
+xGenerateDSYMFile
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app.dSYM
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/finale
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generating /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app.dSYM0455bf7ab20cb441^ae65527bb20cb441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app.dSYM0000204d2205f041^508"GenerateDSYMFile build/Debug-iphonesimulator/finale.app.dSYM build/Debug-iphonesimulator/finale.app/finale    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/finale -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app.dSYM
+
+CLd /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/finale normal i386
+s336376441.884273
+e336376442.744949
+r1
+xLd
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/finale
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/finaleae80e279b20cb441^eab4be7ab20cb441^---0#0#0#--2193"Ld build/Debug-iphonesimulator/finale.app/finale normal i386    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -L/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build/Debug-iphonesimulator -L/Users/This/Documents/ObjectiveC/Three20/TTRK -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -filelist /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/Objects-normal/i386/finale.LinkFileList -mmacosx-version-min=10.6 -ObjC -all_load -Xlinker -objc_abi_version -Xlinker 2 /Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a /Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20.a /Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a /Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20Core.a /Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20UI.a -framework QuartzCore /Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20Network.a /Users/This/Documents/ObjectiveC/Three20/Three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -framework CFNetwork -framework CoreData -framework MobileCoreServices -framework SystemConfiguration -lRestKitCoreData -lRestKitJSONParserNXJSON -lRestKitJSONParserJSONKit -lRestKitJSONParserSBJSON -lRestKitJSONParserYAJL -lRestKitNetwork -lRestKitObjectMapping -lRestKitSupport -lRestKitThree20 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/finale
+
+CProcessInfoPlistFile /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Info.plist finale/finale-Info.plist
+s336376439.088803
+e336376439.119604
+r1
+xProcessInfoPlistFile
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Info.plist
+xfinale/finale-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process finale/finale-Info.plist3be01677b20cb441^80b51e77b20cb441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finale-Info.plist0000000000000000^600"ProcessInfoPlistFile build/Debug-iphonesimulator/finale.app/Info.plist finale/finale-Info.plist    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility finale/finale-Info.plist -genpkginfo /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app/Info.plist
+
+CProcessPCH /Users/This/Library/Developer/Xcode/DerivedData/finale-awghwlxyrruukdfkrwuhzacecatf/Index/PrecompiledHeaders/finale-Prefix-gishhaxpzaqnvtgzmoxvpgonfoof_ast/finale-Prefix.pch.pth finale/finale-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch.gch finale/finale-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s336376439.123218
+e336376440.419837
+r1
+xProcessPCH
+x/var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch.gch
+xfinale/finale-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile finale/finale-Prefix.pche7a81f77b20cb441^d9796b78b20cb441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finale-Prefix.pch0000000000000000^2387"ProcessPCH /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch.gch finale/finale-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/include -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/../../three20 -I../Three20/Build/Products/three20 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources/i386 -I/Users/This/Documents/ObjectiveC/Three20/TTRK/build/finale.build/Debug-iphonesimulator/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator -c /Users/This/Documents/ObjectiveC/Three20/TTRK/finale/finale-Prefix.pch -o /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bdkvcmnikwpvlbgaotmhagyuzmib/finale-Prefix.pch.gch
+
+CTouch /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app
+s336376451.738340
+e336376451.749609
+r1
+xTouch
+x/Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app0f26bd83b20cb441^d6e6bf83b20cb441^---0#0#0#--336"Touch build/Debug-iphonesimulator/finale.app    cd /Users/This/Documents/ObjectiveC/Three20/TTRK    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/This/Documents/ObjectiveC/Three20/TTRK/build/Debug-iphonesimulator/finale.app
+

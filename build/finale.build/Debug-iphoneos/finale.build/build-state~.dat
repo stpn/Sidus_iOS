@@ -1,0 +1,505 @@
+Tfinale
+v3
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/finale.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/Info.plist finale/finale-Info.plist
+cProcessPCH /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bpjgnghlysbbgcftwplkwvlgrljx/finale-Prefix.pch.gch finale/finale-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-dxsdwqsupgqhspgzebvcdyfjtgdy/finale-Prefix.pch.gch finale/finale-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finaleAppDelegate.o /Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/main.o /Users/This/Documents/ObjectiveC/TTRK/finale/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/main.o /Users/This/Documents/ObjectiveC/TTRK/finale/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finaleAppDelegate.o /Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/RootViewController.o /Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/RootViewController.o /Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finale normal armv6
+cLd /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finale normal armv7
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D9A119B0000000000000110
+t1301942683
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D93E1CD00000000002CAD50
+t1301537229
+s2927952
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D93E26D0000000000303FF0
+t1301537389
+s3162096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93E13C00000000003532B0
+t1301537084
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93E1FD00000000003E22F0
+t1301537277
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93E1E60000000000001466
+t1301537254
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D93E32C0000000000094C50
+t1301537580
+s609360
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D93E14E00000000000B0CA0
+t1301537102
+s724128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D99FA7C0000000000000AA1
+t1301936764
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D99FAFA0000000000CA2AE0
+t1301936890
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app.dSYM
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/Info.plist
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/PkgInfo
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/ResourceRules.plist
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/en.lproj/RootViewController.nib
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/finale
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/RootViewController.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finale
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finale.LinkFileList
+c000000004E5C28F6000000000000016E
+t1314662646
+s366
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finaleAppDelegate.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/RootViewController.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finale
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finale.LinkFileList
+c000000004E5C28F6000000000000016E
+t1314662646
+s366
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finaleAppDelegate.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale.xcent
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.h
+c000000004E5815FE00000000000000D6
+t1314395646
+s214
+i<UIKit/UIKit.h>
+
+N/Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m
+c000000004E5815FE0000000000000EF2
+t1314395646
+s3826
+i"RootViewController.h"
+
+N/Users/This/Documents/ObjectiveC/TTRK/finale/en.lproj/InfoPlist.strings
+c000000004E5815FE000000000000002D
+t1314395646
+s45
+
+N/Users/This/Documents/ObjectiveC/TTRK/finale/en.lproj/MainWindow.xib
+c000000004E5815FE0000000000005FE0
+t1314395646
+s24544
+
+N/Users/This/Documents/ObjectiveC/TTRK/finale/en.lproj/RootViewController.xib
+c000000004E5815FE0000000000004449
+t1314395646
+s17481
+
+N/Users/This/Documents/ObjectiveC/TTRK/finale/finale-Prefix.pch
+c000000004E5815FE000000000000013E
+t1314395646
+s318
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.h
+c000000004E5815FE000000000000016E
+t1314395646
+s366
+i<UIKit/UIKit.h>
+
+N/Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m
+c000000004E5815FE000000000000097E
+t1314395646
+s2430
+i"finaleAppDelegate.h"
+
+N/Users/This/Documents/ObjectiveC/TTRK/finale/main.m
+c000000004E5815FE000000000000014C
+t1314395646
+s332
+i<UIKit/UIKit.h>
+
+N/Users/This/Documents/ObjectiveC/TTRK/libRestKitCoreData.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/libRestKitJSONParserJSONKit.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/libRestKitJSONParserNXJSON.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/libRestKitJSONParserSBJSON.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/libRestKitJSONParserYAJL.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/libRestKitNetwork.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/libRestKitObjectMapping.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/libRestKitSupport.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Documents/ObjectiveC/TTRK/libRestKitThree20.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/This/Library/MobileDevice/Provisioning Profiles/38193864-3B9E-4733-9197-04519478D016.mobileprovision
+c000000004E07AE500000000000001BEF
+t1309126224
+s7151
+
+N/var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bpjgnghlysbbgcftwplkwvlgrljx/finale-Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-dxsdwqsupgqhspgzebvcdyfjtgdy/finale-Prefix.pch.gch
+t2
+s0
+
+Nfinale/finale-Info.plist
+c000000004E5815FE0000000000000498
+t1314395646
+s1176
+
+CBuild AST from /Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m
+r0
+
+CBuild AST from /Users/This/Documents/ObjectiveC/TTRK/finale/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesedf2e176600cb441^18cfe876600cb441^---0#1#0#--18"Check dependencies
+
+CCodeSign /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app
+r0
+
+CCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/RootViewController.o /Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s336355448.169502
+e336355448.310553
+r1
+xCompileC
+xbuild/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/RootViewController.o
+x/Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.maa802b78600cb441^1e8d4f78600cb441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m0000000000000000^1958"CompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/RootViewController.o finale/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/include -I/Users/This/Documents/ObjectiveC/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources/armv6 -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bpjgnghlysbbgcftwplkwvlgrljx/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m -o /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/RootViewController.o
+
+CCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finaleAppDelegate.o /Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s336355448.123990
+e336355448.279850
+r1
+xCompileC
+xbuild/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finaleAppDelegate.o
+x/Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m27dc1f78600cb441^d9af4778600cb441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m0000000000000000^1954"CompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finaleAppDelegate.o finale/finaleAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/include -I/Users/This/Documents/ObjectiveC/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources/armv6 -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bpjgnghlysbbgcftwplkwvlgrljx/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m -o /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finaleAppDelegate.o
+
+CCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/main.o /Users/This/Documents/ObjectiveC/TTRK/finale/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s336355448.093283
+e336355448.168274
+r1
+xCompileC
+xbuild/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/main.o
+x/Users/This/Documents/ObjectiveC/TTRK/finale/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/This/Documents/ObjectiveC/TTRK/finale/main.m65001878600cb441^c8242b78600cb441^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/This/Documents/ObjectiveC/TTRK/finale/main.m0000000000000000^1902"CompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/main.o finale/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/include -I/Users/This/Documents/ObjectiveC/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources/armv6 -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bpjgnghlysbbgcftwplkwvlgrljx/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/TTRK/finale/main.m -o /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/main.o
+
+CCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/RootViewController.o /Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s336355448.281074
+e336355448.392571
+r1
+xCompileC
+xbuild/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/RootViewController.o
+x/Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m84104878600cb441^52806478600cb441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m0000000000000000^1958"CompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/RootViewController.o finale/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/include -I/Users/This/Documents/ObjectiveC/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources/armv7 -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-dxsdwqsupgqhspgzebvcdyfjtgdy/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/TTRK/finale/RootViewController.m -o /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/RootViewController.o
+
+CCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finaleAppDelegate.o /Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s336355447.911877
+e336355448.122757
+r1
+xCompileC
+xbuild/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finaleAppDelegate.o
+x/Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.md68fe977600cb441^3e7a1f78600cb441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m0000000000000000^1954"CompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finaleAppDelegate.o finale/finaleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/include -I/Users/This/Documents/ObjectiveC/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources/armv7 -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-dxsdwqsupgqhspgzebvcdyfjtgdy/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/TTRK/finale/finaleAppDelegate.m -o /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finaleAppDelegate.o
+
+CCompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/main.o /Users/This/Documents/ObjectiveC/TTRK/finale/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s336355447.917758
+e336355448.092082
+r1
+xCompileC
+xbuild/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/main.o
+x/Users/This/Documents/ObjectiveC/TTRK/finale/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/This/Documents/ObjectiveC/TTRK/finale/main.m800eeb77600cb441^0aa11778600cb441^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/This/Documents/ObjectiveC/TTRK/finale/main.m0000000000000000^1902"CompileC build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/main.o finale/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/include -I/Users/This/Documents/ObjectiveC/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources/armv7 -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -include /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-dxsdwqsupgqhspgzebvcdyfjtgdy/finale-Prefix.pch -c /Users/This/Documents/ObjectiveC/TTRK/finale/main.m -o /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/main.o
+
+CCompileXIB /Users/This/Documents/ObjectiveC/TTRK/finale/en.lproj/MainWindow.xib
+r0
+
+CCompileXIB /Users/This/Documents/ObjectiveC/TTRK/finale/en.lproj/RootViewController.xib
+r0
+
+CCopyStringsFile /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/en.lproj/InfoPlist.strings finale/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/finale.app/ResourceRules.plist
+s336355446.918825
+e336355446.947183
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/finale.app/ResourceRules.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphoneos/finale.app/ResourceRules.plist6e4ceb76600cb441^3e7bf276600cb441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/ResourceRules.plist0000204d2205f041^581"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist build/Debug-iphoneos/finale.app/ResourceRules.plist    cd /Users/This/Documents/ObjectiveC/TTRK    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app
+
+CCreateUniversalBinary /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/finale normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app.dSYM /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/finale
+r0
+
+CLd /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/finale normal armv7
+r0
+
+CLd /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finale normal armv6
+s336355448.313047
+e336355450.691987
+r0
+xLd
+x/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finale
+xnormal
+xarmv6
+oUndefined symbols for architecture armv6:
+o  "_OBJC_CLASS_$_TTTableLinkedItem", referenced from:
+o      _OBJC_CLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)
+o  "_OBJC_METACLASS_$_TTModel", referenced from:
+o      _OBJC_METACLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)
+o  "_OBJC_CLASS_$_TTTableViewDataSource", referenced from:
+o      _OBJC_CLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)
+o  "_OBJC_CLASS_$_TTModel", referenced from:
+o      _OBJC_CLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)
+o  "_OBJC_METACLASS_$_TTTableViewDataSource", referenced from:
+o      _OBJC_METACLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)
+o  "_OBJC_METACLASS_$_TTTableLinkedItem", referenced from:
+o      _OBJC_METACLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)
+old: symbol(s) not found for architecture armv6
+ocollect2: ld returned 1 exit status
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finale29405078600cb441^2107b17a600cb441^-1049"Undefined symbols for architecture armv6:  "_OBJC_CLASS_$_TTTableLinkedItem", referenced from:      _OBJC_CLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)  "_OBJC_METACLASS_$_TTModel", referenced from:      _OBJC_METACLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)  "_OBJC_CLASS_$_TTTableViewDataSource", referenced from:      _OBJC_CLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)  "_OBJC_CLASS_$_TTModel", referenced from:      _OBJC_CLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)  "_OBJC_METACLASS_$_TTTableViewDataSource", referenced from:      _OBJC_METACLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)  "_OBJC_METACLASS_$_TTTableLinkedItem", referenced from:      _OBJC_METACLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)ld: symbol(s) not found for architecture armv6collect2: ld returned 1 exit status14(21%IDEActivityLogMessage2@51""_OBJC_CLASS_$_TTTableLinkedItem", referenced from:-336355450#42#54#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@91"_OBJC_CLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)-336355450#96#98#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@45""_OBJC_METACLASS_$_TTModel", referenced from:-336355450#194#48#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@87"_OBJC_METACLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)-336355450#242#94#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@55""_OBJC_CLASS_$_TTTableViewDataSource", referenced from:-336355450#336#58#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@99"_OBJC_CLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)-336355450#394#106#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@41""_OBJC_CLASS_$_TTModel", referenced from:-336355450#500#44#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@83"_OBJC_CLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)-336355450#544#90#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@59""_OBJC_METACLASS_$_TTTableViewDataSource", referenced from:-336355450#634#62#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@103"_OBJC_METACLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)-336355450#696#110#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@55""_OBJC_METACLASS_$_TTTableLinkedItem", referenced from:-336355450#806#58#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@95"_OBJC_METACLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)-336355450#864#102#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@42"Symbol(s) not found for architecture armv6-336355450#966#47#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@35"Collect2: ld returned 1 exit status-336355450#1013#36#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--0#0#0#--1366"Ld build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finale normal armv6    cd /Users/This/Documents/ObjectiveC/TTRK    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -L/Users/This/Documents/ObjectiveC/TTRK/RestKit/Build/Debug-iphoneos -L/Users/This/Documents/ObjectiveC/TTRK -F/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -filelist /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finale.LinkFileList -dead_strip -ObjC -all_load -miphoneos-version-min=4.3 -framework CFNetwork -framework CoreData -framework MobileCoreServices -framework SystemConfiguration -lRestKitCoreData -lRestKitJSONParserNXJSON -lRestKitJSONParserJSONKit -lRestKitJSONParserSBJSON -lRestKitJSONParserYAJL -lRestKitNetwork -lRestKitObjectMapping -lRestKitSupport -lRestKitThree20 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv6/finale
+
+CLd /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finale normal armv7
+s336355448.395612
+e336355450.992775
+r0
+xLd
+x/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finale
+xnormal
+xarmv7
+oUndefined symbols for architecture armv7:
+o  "_OBJC_CLASS_$_TTTableLinkedItem", referenced from:
+o      _OBJC_CLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)
+o  "_OBJC_METACLASS_$_TTModel", referenced from:
+o      _OBJC_METACLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)
+o  "_OBJC_CLASS_$_TTTableViewDataSource", referenced from:
+o      _OBJC_CLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)
+o  "_OBJC_CLASS_$_TTModel", referenced from:
+o      _OBJC_CLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)
+o  "_OBJC_METACLASS_$_TTTableViewDataSource", referenced from:
+o      _OBJC_METACLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)
+o  "_OBJC_METACLASS_$_TTTableLinkedItem", referenced from:
+o      _OBJC_METACLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)
+old: symbol(s) not found for architecture armv7
+ocollect2: ld returned 1 exit status
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finalebb636578600cb441^6022fe7a600cb441^-1049"Undefined symbols for architecture armv7:  "_OBJC_CLASS_$_TTTableLinkedItem", referenced from:      _OBJC_CLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)  "_OBJC_METACLASS_$_TTModel", referenced from:      _OBJC_METACLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)  "_OBJC_CLASS_$_TTTableViewDataSource", referenced from:      _OBJC_CLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)  "_OBJC_CLASS_$_TTModel", referenced from:      _OBJC_CLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)  "_OBJC_METACLASS_$_TTTableViewDataSource", referenced from:      _OBJC_METACLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)  "_OBJC_METACLASS_$_TTTableLinkedItem", referenced from:      _OBJC_METACLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)ld: symbol(s) not found for architecture armv7collect2: ld returned 1 exit status14(21%IDEActivityLogMessage2@51""_OBJC_CLASS_$_TTTableLinkedItem", referenced from:-336355450#42#54#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@91"_OBJC_CLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)-336355450#96#98#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@45""_OBJC_METACLASS_$_TTModel", referenced from:-336355450#194#48#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@87"_OBJC_METACLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)-336355450#242#94#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@55""_OBJC_CLASS_$_TTTableViewDataSource", referenced from:-336355450#336#58#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@99"_OBJC_CLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)-336355450#394#106#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@41""_OBJC_CLASS_$_TTModel", referenced from:-336355450#500#44#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@83"_OBJC_CLASS_$_RKObjectLoaderTTModel in libRestKitThree20.a(RKObjectLoaderTTModel.o)-336355450#544#90#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@59""_OBJC_METACLASS_$_TTTableViewDataSource", referenced from:-336355450#634#62#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@103"_OBJC_METACLASS_$_RKObjectTTTableViewDataSource in libRestKitThree20.a(RKObjectTTTableViewDataSource.o)-336355450#696#110#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@55""_OBJC_METACLASS_$_TTTableLinkedItem", referenced from:-336355450#806#58#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@95"_OBJC_METACLASS_$_RKMappableObjectTableItem in libRestKitThree20.a(RKMappableObjectTableItem.o)-336355450#864#102#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@42"Symbol(s) not found for architecture armv7-336355450#966#47#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@35"Collect2: ld returned 1 exit status-336355450#1013#36#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--0#0#0#--1366"Ld build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finale normal armv7    cd /Users/This/Documents/ObjectiveC/TTRK    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -L/Users/This/Documents/ObjectiveC/TTRK/RestKit/Build/Debug-iphoneos -L/Users/This/Documents/ObjectiveC/TTRK -F/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -filelist /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finale.LinkFileList -dead_strip -ObjC -all_load -miphoneos-version-min=4.3 -framework CFNetwork -framework CoreData -framework MobileCoreServices -framework SystemConfiguration -lRestKitCoreData -lRestKitJSONParserNXJSON -lRestKitJSONParserJSONKit -lRestKitJSONParserSBJSON -lRestKitJSONParserYAJL -lRestKitNetwork -lRestKitObjectMapping -lRestKitSupport -lRestKitThree20 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/Objects-normal/armv7/finale
+
+CProcessInfoPlistFile /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/Info.plist finale/finale-Info.plist
+s336355446.919298
+e336355446.968931
+r1
+xProcessInfoPlistFile
+x/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/Info.plist
+xfinale/finale-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process finale/finale-Info.plist2f6aeb76600cb441^5f0df876600cb441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/This/Documents/ObjectiveC/TTRK/finale/finale-Info.plist0000000000000000^650"ProcessInfoPlistFile build/Debug-iphoneos/finale.app/Info.plist finale/finale-Info.plist    cd /Users/This/Documents/ObjectiveC/TTRK    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility finale/finale-Info.plist -genpkginfo /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/ResourceRules.plist -o /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/Info.plist
+
+CProcessPCH /Users/This/Library/Developer/Xcode/DerivedData/finale-exkyqnpbnagdwlentxffyycfjtzq/Index/PrecompiledHeaders/finale-Prefix-fgazjswenkbyakeyiwawvlkapaxj_ast/finale-Prefix.pch.pth finale/finale-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/This/Library/Developer/Xcode/DerivedData/finale-exkyqnpbnagdwlentxffyycfjtzq/Index/PrecompiledHeaders/finale-Prefix-gumtpiyerisjfzaeemveiayulebc_ast/finale-Prefix.pch.pth finale/finale-Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bpjgnghlysbbgcftwplkwvlgrljx/finale-Prefix.pch.gch finale/finale-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s336355446.971764
+e336355447.916512
+r1
+xProcessPCH
+x/var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bpjgnghlysbbgcftwplkwvlgrljx/finale-Prefix.pch.gch
+xfinale/finale-Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile finale/finale-Prefix.pch93e1f876600cb441^cf9fea77600cb441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/This/Documents/ObjectiveC/TTRK/finale/finale-Prefix.pch0000000000000000^1903"ProcessPCH /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bpjgnghlysbbgcftwplkwvlgrljx/finale-Prefix.pch.gch finale/finale-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/include -I/Users/This/Documents/ObjectiveC/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources/armv6 -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -c /Users/This/Documents/ObjectiveC/TTRK/finale/finale-Prefix.pch -o /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-bpjgnghlysbbgcftwplkwvlgrljx/finale-Prefix.pch.gch
+
+CProcessPCH /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-dxsdwqsupgqhspgzebvcdyfjtgdy/finale-Prefix.pch.gch finale/finale-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s336355446.972377
+e336355447.910524
+r1
+xProcessPCH
+x/var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-dxsdwqsupgqhspgzebvcdyfjtgdy/finale-Prefix.pch.gch
+xfinale/finale-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile finale/finale-Prefix.pchd80bf976600cb441^2239e977600cb441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/This/Documents/ObjectiveC/TTRK/finale/finale-Prefix.pch0000000000000000^1903"ProcessPCH /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-dxsdwqsupgqhspgzebvcdyfjtgdy/finale-Prefix.pch.gch finale/finale-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/This/Documents/ObjectiveC/TTRK    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-generated-files.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-own-target-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-all-target-headers.hmap -iquote /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale-project-headers.hmap -I/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/include -I/Users/This/Documents/ObjectiveC/TTRK/RestKit/Build -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources/armv7 -I/Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/DerivedSources -F/Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos -c /Users/This/Documents/ObjectiveC/TTRK/finale/finale-Prefix.pch -o /var/folders/Yl/Ylmn8PGoFPmPtH4UNcrQ7k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/finale-Prefix-dxsdwqsupgqhspgzebvcdyfjtgdy/finale-Prefix.pch.gch
+
+CProcessProductPackaging "/Users/This/Library/MobileDevice/Provisioning Profiles/38193864-3B9E-4733-9197-04519478D016.mobileprovision" /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/This/Documents/ObjectiveC/TTRK/build/finale.build/Debug-iphoneos/finale.build/finale.xcent
+r0
+
+CTouch /Users/This/Documents/ObjectiveC/TTRK/build/Debug-iphoneos/finale.app
+r0
+

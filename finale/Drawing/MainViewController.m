@@ -14,6 +14,7 @@
 @implementation MainViewController
 
 @synthesize vImagePreview;
+@synthesize accel;
 
 
 /* ///////////@Stepan:

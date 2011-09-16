@@ -18,11 +18,15 @@
     MainView *startView;
     TouchDrawView *touchView;
     
-    
+    UIAccelerationValue	*accel;
+
     
 }
 
 @property(nonatomic, retain) IBOutlet UIView *vImagePreview;
+
+
+@property (nonatomic) UIAccelerationValue *accel;
 
 
 @end

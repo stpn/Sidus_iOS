@@ -20,7 +20,7 @@
 #import "Line.h"
 #import "TouchDrawView.h"
 #import "MainViewController.h"
-
+#import "ARRViewController.h"
 
 
 
@@ -193,7 +193,7 @@ static NSString* const kDBAccessTokenHTTPHeaderField = @"X-USER-ACCESS-TOKEN";
 
 
     
-    [map from:@"tt://Drawing" toSharedViewController:[MainViewController class]];
+    [map from:@"tt://Drawing" toSharedViewController:[ARRViewController class]];
 
     
 	[map from:@"tt://login" toModalViewController:[DBLoginOrSignUpViewController class]];

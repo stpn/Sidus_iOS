@@ -58,13 +58,19 @@
         [errorLabel release];
         UIButton *closeButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 30)];
         [closeButton setTitle:@"Close" forState:UIControlStateNormal];
-        
         [closeButton setBackgroundColor:[UIColor blueColor]];
         [closeButton addTarget:self action:@selector(closeButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
         [[infoViewController view] addSubview:closeButton];
         [closeButton release];
+        
+        UIButton *openButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 30, 60, 30)];
+        [openButton setTitle:@"Open" forState:UIControlStateNormal];
+        [openButton setBackgroundColor:[UIColor redColor]];
+        [openButton addTarget:self action:@selector(closeButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+        [[infoViewController view] addSubview:openButton];
+        [openButton release];
   //      [[appDelegate window] addSubview:[infoViewController view]];
- 
+   
     }
 }
 
@@ -82,7 +88,7 @@
      //   [[self cameraViewController] unloadFromView];
      //   cameraViewController = nil;
         
-        ARKitDemoAppDelegate *appDelegate = (ARKitDemoAppDelegate*)[[UIApplication sharedApplication] delegate];
+//        ARKitDemoAppDelegate *appDelegate = (ARKitDemoAppDelegate*)[[UIApplication sharedApplication] delegate];
 
         
         [self setInfoViewController:[[UIViewController alloc] init]];
@@ -97,11 +103,14 @@
         UIButton *closeButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 30)];
         [closeButton setTitle:@"Close" forState:UIControlStateNormal];
         
+        
+        
         [closeButton setBackgroundColor:[UIColor blueColor]];
         [closeButton addTarget:self action:@selector(closeButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
         [[infoViewController view] addSubview:closeButton];
         [closeButton release];
         
+  //      [self.view addSubview: [infoViewController view]];
   //      [[appDelegate window] addSubview:[infoViewController view]];
 
     }
@@ -118,7 +127,7 @@
     tempCoordinate = [ARGeoCoordinate coordinateWithLocation:tempLocation locationTitle:@"EMPIRE STATE BUILDING"];
     [locationArray addObject:tempCoordinate];
     [tempLocation release];
-    
+ /*   
     tempLocation = [[CLLocation alloc] initWithLatitude:45.523875 longitude:-122.670399];
     tempCoordinate = [ARGeoCoordinate coordinateWithLocation:tempLocation locationTitle:@"Portland"];
     [locationArray addObject:tempCoordinate];
@@ -232,7 +241,7 @@
     tempCoordinate = [ARGeoCoordinate coordinateWithLocation:tempLocation locationTitle:@"Seattle"];
     [locationArray addObject:tempCoordinate];
     [tempLocation release];
-    
+*/
     return locationArray;
 }
 

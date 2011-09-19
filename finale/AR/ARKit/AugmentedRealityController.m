@@ -20,7 +20,7 @@
 - (void) updateCenterCoordinate;
 - (void) startListening;
 - (double) findDeltaOfRadianCenter:(double*)centerAzimuth coordinateAzimuth:(double)pointAzimuth betweenNorth:(BOOL*) isBetweenNorth;
-- (CGPoint) pointInView:(UIView *)realityView withView:(UIView *)viewToDraw forCoordinate:(ARCoordinate *)coordinate;
+- (CGPoint) pointInView:(UIView *)realityView withLayer:(CALayer *)viewToDraw forCoordinate:(ARCoordinate *)coordinate;
 - (BOOL) viewportContainsView:(UIView *)viewToDraw forCoordinate:(ARCoordinate *)coordinate;
 @end
 
@@ -47,9 +47,6 @@
 @synthesize viewAngle;
 @synthesize coordinateViews;
 
-@synthesize captureVideoPreviewLayer;
-
-
 @synthesize cameraController;
 
 - (id)initWithViewController:(ARViewController *)vc {
@@ -60,7 +57,7 @@
 	
 	[self setRootViewController: vc];
     
-
+    
 	[self setDebugMode:NO];
 	[self setMaximumScaleDistance: 0.0];
 	[self setMinimumScaleFactor: 1.0];
@@ -69,57 +66,22 @@
 	[self setMaximumRotationAngle: M_PI / 6.0];
 	
 	CGRect screenRect = [[UIScreen mainScreen] bounds];
+	
 
-///MyVIEW:	
-    
     
 	[self setDisplayView: [[UIView alloc] initWithFrame: screenRect]];
-
-    [self setCurrentOrientation:[[UIDevice currentDevice] orientation]];
-    [self setCurrentOrientation:UIDeviceOrientationPortrait];
+	[self setCurrentOrientation:UIDeviceOrientationPortrait];
 	[self setDegreeRange:[[self displayView] bounds].size.width / 12];
-
+    
 	[vc setView:displayView];
 	
-//	[self setCameraController: [[[UIImagePickerController alloc] init] autorelease]];
-    
-/////////// Create the AVCapture Session
-    
-	AVCaptureSession *session = [[AVCaptureSession alloc] init];
-   
-	session.sessionPreset = AVCaptureSessionPresetMedium;
-	CALayer *viewLayer = self.displayView.layer;
-	NSLog(@"viewLayer = %@", viewLayer);
-    // create a preview layer to show the output from the camera
-	captureVideoPreviewLayer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:session];
-	captureVideoPreviewLayer.frame = self.displayView.bounds;
-    
-    captureVideoPreviewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
-//    captureVideoPreviewLayer.orientation = [[UIDevice currentDevice] orientation];
-
-    captureVideoPreviewLayer.automaticallyAdjustsMirroring = YES;
-    
-	[self.displayView.layer addSublayer:captureVideoPreviewLayer];
-  	// Get the default camera device
-	AVCaptureDevice *device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
-    
-	NSError *error = nil;
-	AVCaptureDeviceInput *input = [AVCaptureDeviceInput deviceInputWithDevice:device error:&error];
-	if (!input) {
-		// Handle the error appropriately.
-		NSLog(@"ERROR: trying to open camera: %@", error);
-	}
-	[session addInput:input];
-	[session startRunning];
-
-
-/*	
-    [[self cameraController] setSourceType: UIImagePickerControllerSourceTypeCamera];
+	[self setCameraController: [[[UIImagePickerController alloc] init] autorelease]];
+	[[self cameraController] setSourceType: UIImagePickerControllerSourceTypeCamera];
 	[[self cameraController] setCameraViewTransform: CGAffineTransformScale([[self cameraController] cameraViewTransform], 1.13f,  1.13f)];
 	[[self cameraController] setShowsCameraControls:NO];
 	[[self cameraController] setNavigationBarHidden:YES];
 	[[self cameraController] setCameraOverlayView:displayView];
-*/	
+	
 	CLLocation *newCenter = [[CLLocation alloc] initWithLatitude:37.41711 longitude:-122.02528];
 	
 	[self setCenterLocation: newCenter];
@@ -133,8 +95,36 @@
     
     [closeButton setBackgroundColor:[UIColor greenColor]];
     [closeButton addTarget:self action:@selector(closeButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
-    [displayView addSubview:closeButton];
+
     
+    
+    
+    
+//    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    
+    
+    touchDrawView = [[TouchDrawView alloc] initWithFrame:screenRect];
+ /*   
+    touchDrawView = [[TouchDrawView alloc] initWithFrame:screenRect];
+
+    CATransform3D rotationTransform = CATransform3DIdentity;
+    
+    rotationTransform.m34 = 1.0 / -1000;  
+    
+
+    CATransform3D transform = CATransform3DTranslate(rotationTransform, 0.0, 0.0, -100.0);
+    
+    CALayer *viewLayer = touchDrawView.layer;
+    
+    
+
+
+    [viewLayer setTransform:transform];
+*/    
+    //[displayView addSubview:closeButton];
+    
+    [displayView addSubview:touchDrawView];
+
     [closeButton release];
 	
 	[self startListening];
@@ -146,8 +136,8 @@
 // This is needed to start showing the Camera of the Augemented Reality Toolkit.
 -(void) displayAR {
     @try {
-//       [rootViewController presentModalViewController:self.avvViewController animated:NO];
-       [displayView setFrame: [displayView bounds]]; 
+        [rootViewController presentModalViewController:self.cameraController animated:NO];
+        [displayView setFrame: [[[self cameraController] view] bounds]]; 
     }
  	@catch (NSException *exception) {
         NSLog(@"displayAR exception: %@", exception);
@@ -192,7 +182,7 @@
 		[[self locationManager] startUpdatingLocation];
 		[[self locationManager] setDelegate: self];
 	}
-			
+    
 	if (![self accelerometerManager]) {
 		[self setAccelerometerManager: [UIAccelerometer sharedAccelerometer]];
 		[[self accelerometerManager] setUpdateInterval: 0.25];
@@ -206,16 +196,16 @@
 - (void)stopListening {
     [[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-   
+    
     if ([self locationManager]) {
-       [[self locationManager] setDelegate: nil];
+        [[self locationManager] setDelegate: nil];
     }
     
     if ([self accelerometerManager]) {
-       [[self accelerometerManager] setDelegate: nil];
+        [[self accelerometerManager] setDelegate: nil];
     }
 }
-  
+
 
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateHeading:(CLHeading *)newHeading {
@@ -253,7 +243,7 @@
 		adjustment = degreesToRadian(90);
 	else if (currentOrientation == UIDeviceOrientationPortraitUpsideDown)
 		adjustment = degreesToRadian(180);
-
+    
 	[[self centerCoordinate] setAzimuth: latestHeading - adjustment];
 	[self updateLocations];
 }
@@ -327,7 +317,7 @@
 }
 
 -(double) findDeltaOfRadianCenter:(double*)centerAzimuth coordinateAzimuth:(double)pointAzimuth betweenNorth:(BOOL*) isBetweenNorth {
-
+    
 	if (*centerAzimuth < 0.0) 
 		*centerAzimuth = (M_PI * 2.0) + *centerAzimuth;
 	
@@ -336,7 +326,7 @@
 	
 	double deltaAzimith = ABS(pointAzimuth - *centerAzimuth);
 	*isBetweenNorth		= NO;
-
+    
 	// If values are on either side of the Azimuth of North we need to adjust it.  Only check the degree range
 	if (*centerAzimuth < degreesToRadian([self degreeRange]) && pointAzimuth > degreesToRadian(360-[self degreeRange])) {
 		deltaAzimith	= (*centerAzimuth + ((M_PI * 2.0) - pointAzimuth));
@@ -346,7 +336,7 @@
 		deltaAzimith	= (pointAzimuth + ((M_PI * 2.0) - *centerAzimuth));
 		*isBetweenNorth = YES;
 	}
-			
+    
 	return deltaAzimith;
 }
 
@@ -360,7 +350,7 @@
 	
 	if (deltaAzimith <= degreesToRadian([self degreeRange]))
 		result = YES;
-
+    
 	return result;
 }
 
@@ -371,26 +361,81 @@
 	
 	[debugView setText: [NSString stringWithFormat:@"%.3f %.3f ", -radianToDegrees(viewAngle), [[self centerCoordinate] azimuth]]];
 	
-	int index			= 0;
 	int totalDisplayed	= 0;
-	
-	for (ARCoordinate *item in coordinates) {
+
+ 
+    NSMutableArray *locationArray = [[[NSMutableArray alloc] init] autorelease];
+    ARGeoCoordinate *item;
+    CLLocation        *tempLocation;
+    
+    tempLocation = [[CLLocation alloc] initWithLatitude:40.75590 longitude:-73.98322];
+    item = [ARGeoCoordinate coordinateWithLocation:tempLocation locationTitle:@"EMPIRE STATE BUILDING"];
+    [locationArray addObject:item];
+    [tempLocation release];
+    
+    
+    CLLocationDistance distance = [centerLocation distanceFromLocation:tempLocation]/1000;
+
+    
+    
+    CALayer *viewToDraw = touchDrawView.layer;
+    
+    CALayer *displayLayer = displayView.layer;
+
+    
+    
+
+
+        
+//		UIView *viewToDraw = [coordinateViews objectAtIndex:index];
 		
-		UIView *viewToDraw = [coordinateViews objectAtIndex:index];
-		
-		if ([self viewportContainsView:viewToDraw forCoordinate:item]) {
-			
-			CGPoint loc = [self pointInView:[self displayView] withView:viewToDraw forCoordinate:item];
-			CGFloat scaleFactor = 1.0;
 	
-			if ([self scaleViewsBasedOnDistance]) 
-				scaleFactor = 1.0 - [self minimumScaleFactor] * ([item radialDistance] / [self maximumScaleDistance]);
+            
+            //@STEPAN:::  THIS IS FUCKING IT:
 			
-			float width	 = [viewToDraw bounds].size.width  * scaleFactor;
-			float height = [viewToDraw bounds].size.height * scaleFactor;
+			CGPoint loc = [self pointInView:[self displayView] withLayer:viewToDraw forCoordinate:item];
+    
+    
+    float scaleFactor2 = 1.0;
+
+
+    
+        float scaleFactor = 1.0 - (1.0/(float)distance);
+    
+//USUAL CODE WHICH GIVES TOO SMALL A WINDOW
+    
+			float width3	 = (float)[displayLayer bounds].size.width;
+			float height3 = (float)[displayLayer bounds].size.height;
+
+
+/*@STEPAN: TILEDLAYER CODE WHICH GIVES SIGABRT.
+    CGRect screenRect2 = CGRectMake(0, 0, 2048, 2048);
+
+    float width3	 = (float)screenRect2.size.width;
+    float height3 = (float)screenRect2.size.height;
+
+ */   
+    
+    float width	 = width3  * scaleFactor;
+    float height = height3 * scaleFactor;
+    
+    
+    NSString *myString3 = [NSString stringWithFormat:@"%f",scaleFactor];
+    NSLog(@"SCALEFACTORRR: %@", myString3);    
+
+    
+    NSString *myString4 = [NSString stringWithFormat:@"%f",width];
+    NSLog(@"WIIIDTTTHHH: %@", myString4);    
+    
+
+
 			
+    
+    
 			[viewToDraw setFrame:CGRectMake(loc.x - width / 2.0, loc.y - (height / 2.0), width, height)];
             
+      
+
 			totalDisplayed++;
 			
 			CATransform3D transform = CATransform3DIdentity;
@@ -415,22 +460,19 @@
 				transform				= CATransform3DRotate(transform, [self maximumRotationAngle] * angleDifference / 0.3696f , 0, 1, 0);
 			}
 			
-			[[viewToDraw layer] setTransform:transform];
-			
-			//if we don't have a superview, set it up.
-			if (!([viewToDraw superview])) {
-				[[self displayView] addSubview:viewToDraw];
-				[[self displayView] sendSubviewToBack:viewToDraw];
-			}
-		} 
-		else 
-			[viewToDraw removeFromSuperview];
-		
-		index++;
-	}
+			[viewToDraw setTransform:transform];
+    
+    float scaleFactor3 = scaleFactor2;
+
+
+  
+ 
+
 }
 
-- (CGPoint)pointInView:(UIView *)realityView withView:(UIView *)viewToDraw forCoordinate:(ARCoordinate *)coordinate {	
+//Changed (UIView *) to (CALayer *)
+
+- (CGPoint)pointInView:(UIView *)realityView withLayer:(CALayer *)viewToDraw forCoordinate:(ARCoordinate *)coordinate {	
 	
 	CGPoint point;
 	CGRect realityBounds	= [realityView bounds];
@@ -491,12 +533,11 @@
 	}
 }
 
-
 - (void)setDebugMode:(BOOL)flag {
-
+    
 	if ([self debugMode] == flag) {
 		currentOrientation = [[UIDevice currentDevice] orientation];
-
+        
 		CGRect debugRect  = CGRectMake(0, [[self displayView] bounds].size.height -20, [[self displayView] bounds].size.width, 20);	
 		[debugView setFrame: debugRect];
 		return;

@@ -11,13 +11,12 @@
 #import "ARViewController.h"
 #import <UIKit/UIKit.h>
 
-#import <AVFoundation/AVFoundation.h>
-
+#import "TouchDrawView.h"
 
 @class ARCoordinate;
 
 @interface AugmentedRealityController : NSObject <UIAccelerometerDelegate, CLLocationManagerDelegate> {
-
+    
 	BOOL scaleViewsBasedOnDistance;
 	BOOL rotateViewsBasedOnPerspective;
 	
@@ -33,15 +32,12 @@
 	UIAccelerometer		*accelerometerManager;
 	CLLocation			*centerLocation;
 	UIView				*displayView;
-    
-    
-    AVCaptureVideoPreviewLayer *captureVideoPreviewLayer;
-    
-
 	UILabel				*debugView;
     UIButton            *closeButton;
 	UIImagePickerController	*cameraController;
-
+    
+    TouchDrawView *touchDrawView;
+    
 @private
 	double				latestHeading;
 	double				degreeRange;
@@ -66,16 +62,8 @@
 @property (nonatomic, retain) ARCoordinate		*centerCoordinate;
 @property (nonatomic, retain) CLLocation		*centerLocation;
 @property (nonatomic, retain) UIView			*displayView;
-
-
-@property (nonatomic, retain)     AVCaptureVideoPreviewLayer *captureVideoPreviewLayer;
-
-
 @property (nonatomic, retain) ARViewController	*rootViewController;
 @property (nonatomic, retain) UIImagePickerController *cameraController;
-
-
-
 @property UIDeviceOrientation	currentOrientation;
 @property (readonly) NSArray *coordinates;
 

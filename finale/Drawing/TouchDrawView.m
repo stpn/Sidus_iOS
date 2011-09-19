@@ -17,9 +17,53 @@
 @synthesize glowRadius;
 @synthesize glowOffset;
 
+@synthesize strokeColor;
+@synthesize rectColor;
+@synthesize strokeWidth;
+@synthesize cornerRadius;
+
+/*/@STEPAN: THIS IS SOMETHING FROM HERE: http://www.mlsite.net/blog/?p=1857    
+
++(Class)layerClass
+{
+	return [CATiledLayer class];
+}
+*/
 - (id)initWithCoder:(NSCoder *) c
 {
     [super initWithCoder:c];
+    linesInProcess = [[NSMutableDictionary alloc] init];
+    completeLines = [[NSMutableArray alloc] init];
+    [self setMultipleTouchEnabled:YES];
+    
+    self.strokeColor = kDefaultStrokeColor;
+    self.backgroundColor = [UIColor redColor];
+    self.strokeWidth = kDefaultStrokeWidth;
+    self.rectColor = kDefaultRectColor;
+    self.cornerRadius = kDefaultCornerRadius;
+    
+    glowOffset = CGSizeMake(0.0f, 0.0f);
+    glowColor = [UIColor colorWithRed:(62.0/255.0) green:(136.0/255.0) blue:(255.0/255.0) alpha:1.0f];
+    glowRadius = 200.0f;
+
+/*/@STEPAN: THIS IS SOMETHING FROM HERE: http://www.mlsite.net/blog/?p=1857    
+    CATiledLayer *animLayer = (CATiledLayer *) self.layer;
+    animLayer.levelsOfDetailBias = 8;
+    animLayer.levelsOfDetail = 8;
+*/    
+    return self;
+}
+
+- (id) initWithFrame:(CGRect) frame
+{
+    [super initWithFrame:frame];
+    self.opaque = NO;
+    self.strokeColor = kDefaultStrokeColor;
+//@EZER:: THIS CHANGES THE BACKGROUND COLOR:::  
+    self.backgroundColor = [UIColor redColor];
+    self.rectColor = kDefaultRectColor;
+    self.strokeWidth = kDefaultStrokeWidth;
+    self.cornerRadius = kDefaultCornerRadius;
     linesInProcess = [[NSMutableDictionary alloc] init];
     completeLines = [[NSMutableArray alloc] init];
     [self setMultipleTouchEnabled:YES];
@@ -28,39 +72,22 @@
     glowColor = [UIColor colorWithRed:(62.0/255.0) green:(136.0/255.0) blue:(255.0/255.0) alpha:1.0f];
     glowRadius = 200.0f;
     
+  
+
     return self;
 }
-
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetLineWidth(context, 2.0);
-    CGContextSetLineCap(context, kCGLineCapRound);
-    CGContextSetRGBFillColor(context, 0.0f, 0.0f, 0.0f, 1.0f);
-    CGContextFillRect(context, rect);
+    CGContextSetLineWidth(context, strokeWidth);
+    CGContextSetStrokeColorWithColor(context, self.strokeColor.CGColor);
+    CGContextSetFillColorWithColor(context, self.rectColor.CGColor);
     
-   
+    CGRect rrect = self.bounds;
     
-
-//    CGRect ourRect = {{0.0, 0.0}, {130.0, 100.0}};
-//    int i, numRects = 6;
-//    float rotateAngle = 2*M_PI/numRects;
-//    float tint, tintAdjust = 1.0/numRects;
-//    // ***** Part 2 *****
-//    CGContextTranslateCTM (context, ourRect.size.width,
-//                           2*ourRect.size.height);
-//    // ***** Part 3 *****
-//    for(i = 0, tint = 1.0; i < numRects ; i++, tint -= tintAdjust){
-//        CGContextSetRGBFillColor (context, tint, 0.0, 0.0, tint);
-//        CGContextFillRect(context, ourRect);
-//         CGContextSetShadowWithColor(context, glowOffset, glowRadius, [UIColor colorWithRed:(62.0/255.0) green:(136.0/255.0) blue:(255.0/255.0) alpha:0.75f].CGColor);
-//        CGContextRotateCTM(context, rotateAngle); // cumulative
-//    }
-    
-    CGContextTranslateCTM(context, 0.0f, 0.0f);
     
     // Draw complete Lines in black
     [[UIColor whiteColor] set];
@@ -93,7 +120,7 @@
             CGContextAddLineToPoint(context, endStarCenter.x + x, endStarCenter.y + y);
         }
         // And close the subpath.
-        CGContextSetShadowWithColor(context, glowOffset, glowRadius, [UIColor colorWithRed:(62.0/255.0) green:(136.0/255.0) blue:(255.0/255.0) alpha:1.0f].CGColor);
+//        CGContextSetShadowWithColor(context, glowOffset, glowRadius, [UIColor colorWithRed:(62.0/255.0) green:(136.0/255.0) blue:(255.0/255.0) alpha:1.0f].CGColor);
 
         CGContextClosePath(context);
         

@@ -9,11 +9,21 @@
 #import <UIKit/UIKit.h>
 #import "ARViewProtocol.h"
 
+@class TouchDrawView;
 @class ARGeoCoordinate;
 
 @interface CoordinateView : UIView {
+    
+    NSMutableDictionary *linesInProcess;
+    NSMutableArray *completeLines;
+    
     ARGeoCoordinate *coordinateInfo;
     id<ARViewProtocol> delegate;
+    TouchDrawView *touchDrawView;
+    
+    
+    TouchDrawView       *drawingView;
+
 }
 
 - (id)initForCoordinate:(ARGeoCoordinate *)coordinate withDelgate:(id<ARViewProtocol>) aDelegate;

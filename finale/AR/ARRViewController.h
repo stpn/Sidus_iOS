@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "ARKit.h"
 
+@class TouchDrawView;
+
 @interface ARRViewController : UIViewController<ARLocationDelegate> {
+    
+    
     ARViewController *cameraViewController;
     UIViewController *infoViewController;
 }

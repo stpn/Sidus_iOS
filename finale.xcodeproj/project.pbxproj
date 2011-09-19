@@ -1169,6 +1169,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stepan Boltalin (HB3UM2446P)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1190,6 +1191,7 @@
 					"-ObjC",
 					"-all_load",
 				);
+				PROVISIONING_PROFILE = "BF3FAE91-CFB6-4B48-8FAE-D92E6A97E90A";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1198,6 +1200,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stepan Boltalin (HB3UM2446P)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -1217,6 +1220,7 @@
 					"-ObjC",
 					"-all_load",
 				);
+				PROVISIONING_PROFILE = "BF3FAE91-CFB6-4B48-8FAE-D92E6A97E90A";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
